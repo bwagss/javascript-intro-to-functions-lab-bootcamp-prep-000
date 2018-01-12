@@ -10,3 +10,8 @@ function logShout(string) {
   var spy = shout(string)
   console.log(spy)
 }
+
+function logWhisper(string) {
+  var spy = whisper(string)
+  console.log(spy)
+}
